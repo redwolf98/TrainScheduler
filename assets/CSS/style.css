@@ -1,0 +1,19 @@
+.html, .body{
+    min-height:100%;
+    height:auto;
+}
+
+.jumbotron {
+    background-color: #7f462c;
+    color:white;
+    text-align: center;
+}
+
+.panel-heading{
+    color:white;
+    font-weight:bold;
+}
+
+p, input{
+    margin: 5px;
+}
