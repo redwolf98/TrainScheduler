@@ -92,7 +92,7 @@ function log(text){
             var frequency = $("#input-Frequency").val().trim();
             var firstTrainTime = $("#input-FirstTrainTime").val().trim();
 
-
+            
             database.ref().push({
                 trainName:trainName,
                 destination:destination,
@@ -100,6 +100,8 @@ function log(text){
                 firstTrainTime:firstTrainTime
             });
 
+            $("#trainRecords").empty();
+            
         });
     });
 
